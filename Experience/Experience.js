@@ -11,7 +11,7 @@ import Theme from "./theme.js"
 import Renderer from "./Renderer.js"
 
 import World from "./World/World.js"
-import Controls from "./World/controls.js"
+import Controls from "./World/Controls.js"
 export default class Experience{
     static instance;
   
