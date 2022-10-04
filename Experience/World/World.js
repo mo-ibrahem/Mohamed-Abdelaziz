@@ -1,5 +1,4 @@
 import Experience from "../Experience.js"
-import * as THREE from 'three'
 import { EventEmitter } from "events";
 
 import Environment from "./Enviroment.js"
