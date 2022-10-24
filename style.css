@@ -147,7 +147,7 @@ h1,section,span,h1,p,svg{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-pink);
+  background: #a7bed2;
   border-radius: 999px;
   margin: 0px 16px;
   border: none;

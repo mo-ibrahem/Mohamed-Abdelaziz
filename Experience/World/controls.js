@@ -271,8 +271,8 @@ export default class Controls{
                 this.room.children.forEach((child)=>{
                     if(child.name ==="Mini_Floor"){
                         this.first =  GSAP.to(child.position,{
-                            z: -0.164419,
-                            x: 0.862126,
+                            z: -0.144419,
+                            x: 0.1962126,
                             ease:"back.out(2)",
                             duration: 0.6
                         })

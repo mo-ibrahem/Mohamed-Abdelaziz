@@ -38,15 +38,15 @@ export default class Room{
                 })
             }
             if(child.name ==="Aquaruim"){
-                child.children[0].material = new THREE.MeshPhysicalMaterial;
-                child.children[0].material.roughness = 0 ;
-                child.children[0].material.color.set(0x549dd2);
-                child.children[0].material.ior = 3;
-                child.children[0].material.transmission = 1;
-                child.children[0].material.opacity = 1;
+                child.children[4].material = new THREE.MeshPhysicalMaterial;
+                child.children[4].material.roughness = 0 ;
+                child.children[4].material.color.set(0x549dd2);
+                child.children[4].material.ior = 3;
+                child.children[4].material.transmission = 1;
+                child.children[4].material.opacity = 1;
             }
             if(child.name ==="Computer"){
-                child.children[0].material = new THREE.MeshBasicMaterial({
+                child.children[3].material = new THREE.MeshBasicMaterial({
                     map: this.recources.videoTexture["screen"],
                 });
             }
