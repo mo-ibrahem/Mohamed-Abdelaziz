@@ -162,7 +162,12 @@ export default class Preloader extends EventEmitter{
                 },"same")
                 .to(this.camera.orthographicCamera.position,{
                     y:3.5,
+                    
                 },"same")
+                // .to(this.room.rotation,{
+                //     y:2* Math.PI + Math.PI
+                    
+                // },"same")
                 .to(this.roomChildren.cube.position,{
                     x: -0.064253,
                     y: 6.47681,
@@ -212,14 +217,14 @@ export default class Preloader extends EventEmitter{
                     z:1,
                     ease: "back.out(2)",
                     duration: 0.5,
-                })
+                },"fish")
                 .to(this.roomChildren.fish.scale,{
                     x:1,
                     y:1,
                     z:1,
                     ease: "back.out(2)",
                     duration: 0.5,
-                })
+                },"fish")
                 .to(this.roomChildren.clock.scale,{
                     x:1,
                     y:1,

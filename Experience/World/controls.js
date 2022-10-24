@@ -123,8 +123,8 @@ export default class Controls{
                   "same"
                 );
                 this.secondMoveTimeline.to(this.rectLight,{
-                    width: 0.5 * 4,
-                    height: 0.7 * 4,
+                    width: 0.5 * 6,
+                    height: 0.7 * 6,
                   
                  },
                   "same"
@@ -151,8 +151,8 @@ export default class Controls{
                 //resetGlobalState
                 this.room.position.set(0,0,0);
                 this.room.scale.set(0.07,0.07,0.07);
-                this.rectLight.width=0.5;
-                this.rectLight.height=0.7;
+                this.rectLight.width=1;
+                this.rectLight.height=1;
 
                 // First Section --------------------------------------------------------
                 this.firstMoveTimeline = new GSAP.timeline({
@@ -278,7 +278,7 @@ export default class Controls{
                         })
                         this.firstt = GSAP.to(child.scale,{
                             x:1,
-                            y:1.1,
+                            y:1.05,
                             z:1
                         })
                     }

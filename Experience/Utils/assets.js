@@ -2,7 +2,7 @@
     {
         name: "room",
         type: "glbModel",
-        path: "/models/FinalR.glb",
+        path: "/models/Finall.glb",
     },
     {
         name: "screen",
