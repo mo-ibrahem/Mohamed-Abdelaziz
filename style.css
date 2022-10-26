@@ -29,6 +29,7 @@ h1,section,span,h1,p,svg{
    --color-green-light:#7AD0AC;
    --color-blue-light: #8395CD; */
 }
+
 .light-theme{
   --color-text: var(--color-text-white);
   --color-background: var(--color-background-light);
@@ -139,6 +140,7 @@ h1,section,span,h1,p,svg{
   align-items: center;
   color: var(--color-text)
 }
+
 .toggle-button{
   cursor: pointer;
   position: relative;
@@ -166,7 +168,29 @@ h1,section,span,h1,p,svg{
 .toggle-button:hover .toggle-circle{
   transform: scale(0.85);
 }
-
+.detail-container{
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+}
+svg{
+  margin-right: 5px;
+}
+a{
+  color: #333332;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+a:hover{
+  color: #7AD0AC;
+}
+span{
+  font-weight: normal;
+}
+hr{
+  margin-top: 60px;
+}
 .slide{
   left:28px
 }
@@ -426,4 +450,16 @@ section{
   .hero-main-subheading{
     font-size:14px;
   }
+}
+li{
+  color: var(--color-text);
+  margin-top: 8px;
+}
+a{
+  color: var(--color-text);
+}
+svg{
+  fill: var(--color-text);
+  
+
 }
